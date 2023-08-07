@@ -1,8 +1,9 @@
 /*******对服务器端数据API进行二次封装*******/
 import jwt from 'jsonwebtoken';
 import {checkForEmptyValues} from '@/uilts/uiltsForProfit'
+// secret: 'a7BzdByGfXpHNCberhgVMGIaTxtSBcgS',
 export const jwtConfig = {
-	secret: 'a7BzdByGfXpHNCberhgVMGIaTxtSBcgS',
+	secret: '',
 	expiresIn: '2 days' // A numeric value is interpreted as a seconds count. If you use a string be sure you provide the time units (days, hours, etc)
 };
 // export const appConfig={
