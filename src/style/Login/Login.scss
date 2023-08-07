@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        height: 350rpx !important;
+        width: 600rpx !important;
+        margin-top: 7.5vh !important;
+    }
+
+    .uni-forms {
+        margin-top: 3vh;
+        width: 80%;
+
+        .uni-forms-item {
+            border-radius: 5px;
+            background-color: #fafafa;
+
+            .uni-forms-item__label {
+                padding: 0 12px 0 10px !important;
+            }
+
+            input {
+                height: 100%;
+            }
+        }
+
+        .button {
+            width: 75vw;
+            border-radius: 25px;
+            background-color: blue;
+            color: #fff;
+        }
+    }
+
+    .login-bottom {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 15vw;
+        text-align: center;
+
+        .navigator {
+            display: inline-block;
+            color: blue;
+            margin: 0 1vw 0 1vw;
+        }
+    }
+} 

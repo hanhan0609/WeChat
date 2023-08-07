@@ -1,0 +1,73 @@
+.list {
+    overflow: hidden;
+    height: 100%;
+    margin-top: 90rpx;
+}
+.uni-list-chat {
+    background-color: #2C3138 !important;
+    height: 4.5rem;
+
+    .uni-list-chat__container {
+        padding: 0.7rem !important;
+        height: 70%;
+
+        ::v-deep .uni-list-chat__content-main {
+            padding: 0;
+        }
+
+        .uni-list-chat__header-warp {
+            display: none;
+        }
+
+        .uni-list-chat__content-title {
+            color: #fff !important;
+            font-weight: 900 !important;
+        }
+        .uni-list-chat__content-note {
+            font-weight: 600 !important;
+            margin-left: 1.5rem;
+        }
+
+        .chat-custom-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+
+            .chat-custom-text {
+                text-align: end;
+                color: #fff;
+                font-weight: 900;
+            }
+
+            .right-bottom-green {
+                color: #92ED15;
+                font-weight: 900;
+            }
+
+            .right-bottom-red {
+                color: #D9001B;
+                font-weight: 900;
+            }
+        }
+    }
+}
+.time-icons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 0.65rem 0.6rem;
+}
+::v-deep.uni-list--border::after{
+    background-color: #545353 !important;
+}
+::v-deep.uni-list--border-top{
+    display: none;
+}
+::v-deep.uni-list--border-bottom{
+    display: none;
+}
+::v-deep.uni-list-chat--first::after{
+    display: none !important;
+}

@@ -1,0 +1,133 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"renderer": "skyline",
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		},
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/foreignExchangeMarket/foreignExchangeMarket",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2d3138",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#2d3138"
+			}
+		},
+		{
+			"path": "pages/profit/profit",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2d3138",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#2d3138"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2d3138",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#2d3138",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "pages/newsInfo/newsInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2d3138",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#2d3138",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#2d3138",
+		"color": "#ecebe1",
+		"selectedColor": "#fef9e7",
+		"list": [
+			{
+				"pagePath": "pages/foreignExchangeMarket/foreignExchangeMarket",
+				"iconPath": "static/image/meiyuan.png",
+				"selectedIconPath": "static/image/meiyuan_act1.png",
+				"text": "汇市行情"
+			},
+			{
+				"pagePath": "pages/profit/profit",
+				"iconPath": "static/image/renminbi.png",
+				"selectedIconPath": "static/image/renminbi_act1.png",
+				"text": "损益"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/image/xiaoxi.png",
+				"selectedIconPath": "static/image/xiaoxi_act1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/newsInfo/newsInfo",
+				"iconPath": "static/image/zixun.png",
+				"selectedIconPath": "static/image/zixun_act1.png",
+				"text": "资讯"
+			}
+		]
+	},
+	"subPackages": [
+		{
+			"root": "packageNavigate",
+			"pages": [
+				{
+					"path": "pages/ExchangeRateDetail",
+					"style": {
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#2d3138"
+					}
+				}
+			]
+		},
+		{
+			"root": "packageNavigate",
+			"pages": [
+				{
+					"path": "pages/LoginAgreement"
+				}
+			]
+		},
+		{
+			"root": "packageNavigate",
+			"pages": [
+				{
+					"path": "pages/NewsInfoDetail"
+				}
+			]
+		}
+	]
+}

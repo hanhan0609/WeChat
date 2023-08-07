@@ -1,0 +1,47 @@
+page {
+        background-color: #2C3138;
+
+        .list {
+            overflow: hidden;
+            height: 100%;
+            margin-top: 90rpx;
+        }
+
+        .uni-list-chat {
+            background-color: #2C3138 !important;
+
+            .uni-list-chat__header {
+                width: 47px !important;
+                border-width: 0px !important;
+            }
+
+            .uni-list-chat__content-title {
+                color: #fff !important;
+                font-weight: 900 !important;
+            }
+
+            .uni-list-chat__content-note {
+                color: #fff !important;
+                display: block;
+            }
+        }
+    }
+    .draft, .uni-list-chat__content-note {
+        overflow: unset !important;
+    }
+
+    .uni-ellipsis {
+        white-space: normal !important;
+    }
+    ::v-deep.uni-list--border::after{
+        background-color: #545353 !important;
+    }
+    ::v-deep.uni-list--border-top{
+        display: none;
+    }
+    ::v-deep.uni-list--border-bottom{
+        display: none;
+    }
+    ::v-deep.uni-list-chat--first::after{
+        display: none !important;
+    }

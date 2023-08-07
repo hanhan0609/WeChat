@@ -1,0 +1,48 @@
+.header {
+    height: 90rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3138;
+    color: #fff;
+    position: fixed;
+    top: -1rpx;
+    z-index: 10;
+    width: 100%;
+    // border-bottom: solid 2px #fff;
+
+    .name{
+        margin-left: 0.7rem;
+        color: #e89e42;
+    }
+
+    .datetime-body {
+        width: 100px;
+        margin-right: 0.7rem;
+        color: rgba(50, 120, 255, 1);
+        font-weight: 900;
+    }
+    .datetime-body-click {
+        width: 100px;
+        margin-right: 0.7rem;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .set-body {
+        text-align: right;
+        width: 100px;
+        margin-right: 0.7rem;
+        color: rgba(0, 122, 255, 1);
+        font-weight: 900;
+    }
+
+    .searchbar-body {
+        width: 55vw;
+        // width: 340rpx;
+        // margin-right: 0.3rem;
+    }
+}
+::v-deep.uni-list--border::after{
+    background-color: #545353 !important;
+}

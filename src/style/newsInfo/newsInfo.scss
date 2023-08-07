@@ -1,0 +1,54 @@
+page {
+    background-color: #2C3138;
+
+    .swiper {
+        margin-top: 90rpx;
+        padding: 20rpx;
+        border-bottom: solid 2px #fff;
+
+        .swiper-box {
+            width: 750rpx;
+            //套用计算swiper高度的公式
+            // height: calc(100vw*442/810);
+            height: 400rpx;
+
+            image {
+                width: 100%;
+                height: 400rpx;
+            }
+        }
+    }
+
+    .list {
+        margin-top: 90rpx;
+        // flex: 1;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .uni-list-item {
+        height: 6rem;
+        background-color: #2C3138 !important;
+
+        .uni-list-item__content-title {
+            color: #fff !important;
+            font-weight: 900 !important;
+        }
+
+        .uni-list-item__content-note {
+            color: #fff !important;
+        }
+    }
+}
+
+.container {
+    // display: flex;
+    // flex-direction: column;
+    // background-color: #2C3138;
+    // height: 100vh;
+}
+
+.uni-list--lg {
+    height: 80px !important;
+    width: 170px !important;
+}
